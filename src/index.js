@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter  basename="/goit-react-hw-05-moviess/">
+    <BrowserRouter basename={'/goit-react-hw-05-moviess/'}>
     <GlobalStyle />
     <App />
     </BrowserRouter>
