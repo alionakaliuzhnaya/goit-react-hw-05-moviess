@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { useEffect, useState } from "react/cjs/react.development";
+import { useState, useEffect } from 'react';
 import ReviewsList from "../components/ReviewsList/ReviewsList.js";
 import { fetchReviews } from "../services/moviesApi";
 
